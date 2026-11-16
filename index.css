@@ -548,7 +548,7 @@ box-shadow:0 10px 30px rgba(59,130,246,0.3);
 
 
 
-/* SECTION BACKGROUND - Video maadiri dark blue */
+/* SECTION BACKGROUND */
 .certificate-section{
   padding: 80px 20px;
   text-align: center;
@@ -572,7 +572,7 @@ box-shadow:0 10px 30px rgba(59,130,246,0.3);
   color: #e6edf3;
 }
 
-/* GRID - Video la 3 box irukura maadiri */
+/* GRID */
 .tech-grid{
   display: grid;
   grid-template-columns: repeat(3, 350px);
@@ -582,7 +582,7 @@ box-shadow:0 10px 30px rgba(59,130,246,0.3);
   margin: 0 auto;
 }
 
-/* BOX - Adhe model */
+/* BOX */
 .tech-box{
   background: rgba(255,255,255,0.05);
   border: 1px solid rgba(255,255,255,0.08);
@@ -624,7 +624,7 @@ box-shadow:0 10px 30px rgba(59,130,246,0.3);
   color: #8b949e;
 }
 
-/* ACTIVE / HOVER - Blue glow video la irukura maadiri */
+/* ACTIVE /hover*/
 .tech-box:hover{
   background: rgba(88,166,255,0.08);
   border-color: #58a6ff;
@@ -638,7 +638,7 @@ box-shadow:0 10px 30px rgba(59,130,246,0.3);
   border-color: rgba(88,166,255,0.3);
 }
 
-/* HOVER LA CERTIFICATE CONTENT */
+/* HOVER  CERTIFICATE CONTENT */
 .cert-details{
   max-height: 0;
   opacity: 0;
@@ -721,7 +721,7 @@ box-shadow:0 10px 30px rgba(59,130,246,0.3);
 
 
 
-/* ===== FINAL RESPONSIVE FIX - IDHA KADASIYA PODU ===== */
+/* ===== FINAL RESPONSIVE FIX  ===== */
 
 html, body{
   overflow-x: hidden;
@@ -824,17 +824,17 @@ html, body{
 /* ===== MAIN SECTION MEDIA QUERY ONLY ===== */
 @media(max-width: 768px){
   main{
-    flex-direction: column; /* Side-by-side irukura rendu keezha varum */
+    flex-direction: column; 
     align-items: center;
     text-align: center;
   }
 
   .content{
-    width: 100%; /* 50% la irundhu full width aayidum */
+    width: 100%; 
   }
 
   main h3, main span, main h4, main p, .icons, .view, .Download{
-    margin-left: 0; /* Left la thalli irundhadhu center ku varum */
+    margin-left: 0; 
   }
 
   main p{
@@ -843,12 +843,12 @@ html, body{
   }
 
   .icons{
-    justify-content: center; /* Icons center ku */
+    justify-content: center; 
   }
 
   .photo{
     width: 100%;
-    margin-left: 0; /* 300px irundhadhu eduthuten */
+    margin-left: 0; 
     margin-top: 40px;
     justify-content: center;
   }
@@ -875,10 +875,10 @@ html, body{
 
 
 
-/* ===== ABOUT SECTION MEDIA QUERY ONLY ===== */
+/* ===== ABOUT SECTION MEDIA QUERY  ===== */
 @media(max-width: 768px){
   .one{
-    flex-direction: column; /* Left Right side-by-side a keezha kondu varum */
+    flex-direction: column; 
     align-items: center;
   }
 
@@ -897,13 +897,13 @@ html, body{
     width: 100%;
     margin-left: 0;
     margin-top: 40px;
-    align-items: center; /* Card ellam center ku */
+    align-items: center; 
   }
 
   .do-card{
     width: 90%;
     max-width: 350px;
-    margin-left: 0; /* 100px irundhadhu eduthuten */
+    margin-left: 0; 
     margin-right: 0;
   }
 }
@@ -922,11 +922,11 @@ html, body{
 }
 
 
-/* ===== CONTACT SECTION MEDIA QUERY ONLY ===== */
+/* ===== CONTACT SECTION MEDIA QUERY  ===== */
 @media(max-width: 768px){
   .contactss{
-    margin-left: 0; /* 450px thaan villain, atha 0 aakkiten */
-    justify-content: center; /* Center ku kondu varum */
+    margin-left: 0; 
+    justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
     width: 100%;
